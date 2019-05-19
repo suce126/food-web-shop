@@ -1,0 +1,17 @@
+.contactPage {
+  text-align: center;
+}
+
+.contactInput {
+  width: 20rem;
+  &.textarea {
+    height: 8rem;
+  }
+}
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+.row .col-1-of-2 {
+  width: calc((100% - 6rem) / 2);
+}

@@ -5,7 +5,7 @@ export default class Takeaway extends Component {
   render() {
     return (
       <div>
-        <ul>
+        <ul className='takeawayMenu'>
           <li>
             <a href="#home">Menu</a>
           </li>
